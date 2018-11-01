@@ -10,213 +10,213 @@ Welcome to Pycom Documentation's documentation!
   :maxdepth: 1
   :caption: Contents:
 
-  Introduction <README.md>
-  Pycom Products <products.md>
+  Introduction <README>
+  Pycom Products <products>
 
 .. toctree::
    :caption: Getting Started
 
-  Introduction <gettingstarted/introduction.md>
-  Hardware Setup <gettingstarted/connection/README.md>
-    LoPy <gettingstarted/connection/lopy.md>
-    LoPy 4 <gettingstarted/connection/lopy4.md>
-    SiPy <gettingstarted/connection/sipy.md>
-    GPy <gettingstarted/connection/gpy.md>
-    FiPy <gettingstarted/connection/fipy.md>
-    WiPy <gettingstarted/connection/wipy.md>
-  Software <gettingstarted/installation/README.md>
-    Drivers <gettingstarted/installation/drivers.md>
-    Updating Firmware <gettingstarted/installation/firmwaretool.md>
-    Pymakr <gettingstarted/installation/pymakr.md>
-  Programming the modules <gettingstarted/programming/README.md>
-    Introduction to MicroPython <gettingstarted/programming/micropython.md>
-    MicroPython Examples <gettingstarted/programming/examples.md>
-    Your first Pymakr project <gettingstarted/programming/first-project.md>
-    REPL <gettingstarted/programming/repl/README.md>
-      Serial USB (UART) <gettingstarted/programming/repl/serial.md>
-      Telnet REPL <gettingstarted/programming/repl/telnet.md>
-    FTP <gettingstarted/programming/ftp.md>
-    Safe boot <gettingstarted/programming/safeboot.md>
-  Device Registration <gettingstarted/registration/README.md>
-    Sigfox <gettingstarted/registration/sigfox.md>
-    Cellular <gettingstarted/registration/cellular.md>
-    LoRaWAN <gettingstarted/registration/lora/README.md>
-      The Things Network <gettingstarted/registration/lora/ttn.md>
-      Senet <gettingstarted/registration/lora/senet.md>
-  Troubleshooting Guide <gettingstarted/troubleshooting-guide.md>
+  Introduction <gettingstarted/introduction>
+  Hardware Setup <gettingstarted/connection/README>
+    LoPy <gettingstarted/connection/lopy>
+    LoPy 4 <gettingstarted/connection/lopy4>
+    SiPy <gettingstarted/connection/sipy>
+    GPy <gettingstarted/connection/gpy>
+    FiPy <gettingstarted/connection/fipy>
+    WiPy <gettingstarted/connection/wipy>
+  Software <gettingstarted/installation/README>
+    Drivers <gettingstarted/installation/drivers>
+    Updating Firmware <gettingstarted/installation/firmwaretool>
+    Pymakr <gettingstarted/installation/pymakr>
+  Programming the modules <gettingstarted/programming/README>
+    Introduction to MicroPython <gettingstarted/programming/micropython>
+    MicroPython Examples <gettingstarted/programming/examples>
+    Your first Pymakr project <gettingstarted/programming/first-project>
+    REPL <gettingstarted/programming/repl/README>
+      Serial USB (UART) <gettingstarted/programming/repl/serial>
+      Telnet REPL <gettingstarted/programming/repl/telnet>
+    FTP <gettingstarted/programming/ftp>
+    Safe boot <gettingstarted/programming/safeboot>
+  Device Registration <gettingstarted/registration/README>
+    Sigfox <gettingstarted/registration/sigfox>
+    Cellular <gettingstarted/registration/cellular>
+    LoRaWAN <gettingstarted/registration/lora/README>
+      The Things Network <gettingstarted/registration/lora/ttn>
+      Senet <gettingstarted/registration/lora/senet>
+  Troubleshooting Guide <gettingstarted/troubleshooting-guide>
 
 .. toctree::
    :caption: Pymakr Plugin
-   Installation <pymakr/installation/README.md>
-      Atom <pymakr/installation/atom.md>
-      Visual Studio Code <pymakr/installation/vscode.md>
-   Tools/Features <pymakr/toolsfeatures.md>
-   Settings <pymakr/settings.md>
+   Installation <pymakr/installation/README>
+      Atom <pymakr/installation/atom>
+      Visual Studio Code <pymakr/installation/vscode>
+   Tools/Features <pymakr/toolsfeatures>
+   Settings <pymakr/settings>
 
 .. toctree::
    :caption: Pytrack, Pysense, Pyscan
-   Introduction <pytrackpysense/introduction.md>
-   Installing Software <pytrackpysense/installation/README.md>
-      Updating Firmware <pytrackpysense/installation/firmware.md>
-      Installing Drivers Windows 7 <pytrackpysense/installation/drivers.md>
-      Installing Libraries <pytrackpysense/installation/libraries.md>
-   API Reference <pytrackpysense/apireference/README.md>
-      Pytrack <pytrackpysense/apireference/pytrack.md>
-      Pysense <pytrackpysense/apireference/pysense.md>
-      Pyscan <pytrackpysense/apireference/pyscan.md>
-      Sleep <pytrackpysense/apireference/sleep.md>
+   Introduction <pytrackpysense/introduction>
+   Installing Software <pytrackpysense/installation/README>
+      Updating Firmware <pytrackpysense/installation/firmware>
+      Installing Drivers Windows 7 <pytrackpysense/installation/drivers>
+      Installing Libraries <pytrackpysense/installation/libraries>
+   API Reference <pytrackpysense/apireference/README>
+      Pytrack <pytrackpysense/apireference/pytrack>
+      Pysense <pytrackpysense/apireference/pysense>
+      Pyscan <pytrackpysense/apireference/pyscan>
+      Sleep <pytrackpysense/apireference/sleep>
 
 .. toctree::
    :caption: Tutorials & Examples
-   Introduction <tutorials/introduction.md>
-   All Pycom Device Examples <tutorials/all/README.md>
-      REPL <tutorials/all/repl.md>
-      WLAN <tutorials/all/wlan.md>
-      Bluetooth <tutorials/all/ble.md>
-      HTTPS <tutorials/all/https.md>
-      MQTT <tutorials/all/mqtt.md>
-      AWS <tutorials/all/aws.md>
-      ADC <tutorials/all/adc.md>
-      I2C <tutorials/all/i2c.md>
-      Onewire Driver <tutorials/all/owd.md>
-      Threading <tutorials/all/threading.md>
-      RGB LED <tutorials/all/rgbled.md>
-      Timers <tutorials/all/timers.md>
-      PIR Sensor <tutorials/all/pir.md>
-      Modbus <tutorials/all/modbus.md>
-      OTA update <tutorials/all/ota.md>
-      RMT <tutorials/all/rmt.md>
-   LoRa Examples <tutorials/lora/README.md>
-      LoRa-MAC (Raw LoRa) <tutorials/lora/lora-mac.md>
-      LoRaWAN with OTAA <tutorials/lora/lorawan-otaa.md>
-      LoRaWAN with ABP <tutorials/lora/lorawan-abp.md>
+   Introduction <tutorials/introduction>
+   All Pycom Device Examples <tutorials/all/README>
+      REPL <tutorials/all/repl>
+      WLAN <tutorials/all/wlan>
+      Bluetooth <tutorials/all/ble>
+      HTTPS <tutorials/all/https>
+      MQTT <tutorials/all/mqtt>
+      AWS <tutorials/all/aws>
+      ADC <tutorials/all/adc>
+      I2C <tutorials/all/i2c>
+      Onewire Driver <tutorials/all/owd>
+      Threading <tutorials/all/threading>
+      RGB LED <tutorials/all/rgbled>
+      Timers <tutorials/all/timers>
+      PIR Sensor <tutorials/all/pir>
+      Modbus <tutorials/all/modbus>
+      OTA update <tutorials/all/ota>
+      RMT <tutorials/all/rmt>
+   LoRa Examples <tutorials/lora/README>
+      LoRa-MAC (Raw LoRa) <tutorials/lora/lora-mac>
+      LoRaWAN with OTAA <tutorials/lora/lorawan-otaa>
+      LoRaWAN with ABP <tutorials/lora/lorawan-abp>
       LoRa-MAC
-         Nano-Gateway <tutorials/lora/lora-mac-nano-gateway.md>
-      LoPy to LoPy <tutorials/lora/module-module.md>
-      LoRaWAN Nano-Gateway <tutorials/lora/lorawan-nano-gateway.md>
-      RN2483 to LoPy <tutorials/lora/rn2483-to-lopy.md>
-   Sigfox Examples <tutorials/sigfox.md>
-   LTE Examples <tutorials/lte/README.md>
-      CAT-M1 <tutorials/lte/cat-m1.md>
-      NB-IoT <tutorials/lte/nb-iot.md>
-      Module IMEI <tutorials/lte/imei.md>
-      Modem Firmware Update <tutorials/lte/firmware.md>
-   Pytrack Examples <tutorials/pytrack.md>
-   Pysense Examples <tutorials/pysense.md>
-   Pyscan Examples <tutorials/pyscan.md>
+         Nano-Gateway <tutorials/lora/lora-mac-nano-gateway>
+      LoPy to LoPy <tutorials/lora/module-module>
+      LoRaWAN Nano-Gateway <tutorials/lora/lorawan-nano-gateway>
+      RN2483 to LoPy <tutorials/lora/rn2483-to-lopy>
+   Sigfox Examples <tutorials/sigfox>
+   LTE Examples <tutorials/lte/README>
+      CAT-M1 <tutorials/lte/cat-m1>
+      NB-IoT <tutorials/lte/nb-iot>
+      Module IMEI <tutorials/lte/imei>
+      Modem Firmware Update <tutorials/lte/firmware>
+   Pytrack Examples <tutorials/pytrack>
+   Pysense Examples <tutorials/pysense>
+   Pyscan Examples <tutorials/pyscan>
 
    :caption: Firmware & API Reference
-   Introduction <firmwareapi/introduction.md>
-   Pycom Modules <firmwareapi/pycom/README.md>
-      machine <firmwareapi/pycom/machine/README.md>
-         ADC <firmwareapi/pycom/machine/adc.md>
-         DAC <firmwareapi/pycom/machine/dac.md>
-         I2C <firmwareapi/pycom/machine/i2c.md>
-         Pin <firmwareapi/pycom/machine/pin.md>
-         PWM <firmwareapi/pycom/machine/pwm.md>
-         RTC <firmwareapi/pycom/machine/rtc.md>
-         SPI <firmwareapi/pycom/machine/spi.md>
-         UART <firmwareapi/pycom/machine/uart.md>
-         WDT <firmwareapi/pycom/machine/wdt.md>
-         Timer <firmwareapi/pycom/machine/timer.md>
-         SD <firmwareapi/pycom/machine/sd.md>
-         CAN <firmwareapi/pycom/machine/can.md>
-         RMT <firmwareapi/pycom/machine/rmt.md>
-      network <firmwareapi/pycom/network/README.md>
-         WLAN <firmwareapi/pycom/network/wlan.md>
-         Server <firmwareapi/pycom/network/server.md>
-         Bluetooth <firmwareapi/pycom/network/bluetooth/README.md>
-            GATT <firmwareapi/pycom/network/bluetooth/gatt.md>
-            GATTCConnection <firmwareapi/pycom/network/bluetooth/gattcconnection.md>
-            GATTCService <firmwareapi/pycom/network/bluetooth/gattccservice.md>
-            GATTCCharacteristic <firmwareapi/pycom/network/bluetooth/gattccharacteristic.md>
-            GATTSService <firmwareapi/pycom/network/bluetooth/gattsservice.md>
-            GATTSCharacteristic <firmwareapi/pycom/network/bluetooth/gattscharacteristic.md>
-         LoRa <firmwareapi/pycom/network/lora.md>
-         Sigfox <firmwareapi/pycom/network/sigfox.md>
-         LTE <firmwareapi/pycom/network/lte.md>
-      AES <firmwareapi/pycom/aes.md>
-      pycom <firmwareapi/pycom/pycom.md>
-   MicroPython Modules <firmwareapi/micropython/README.md>
-      micropython <firmwareapi/micropython/micropython.md>
-      uctypes <firmwareapi/micropython/uctypes.md>
-      sys <firmwareapi/micropython/sys.md>
-      uos <firmwareapi/micropython/uos.md>
-      array <firmwareapi/micropython/array.md>
-      cmath <firmwareapi/micropython/cmath.md>
-      math <firmwareapi/micropython/math.md>
-      gc <firmwareapi/micropython/gc.md>
-      ubinascii <firmwareapi/micropython/ubinascii.md>
-      ujson <firmwareapi/micropython/ujson.md>
-      ure <firmwareapi/micropython/ure.md>
-      usocket <firmwareapi/micropython/usocket.md>
-      select <firmwareapi/micropython/select.md>
-      utime <firmwareapi/micropython/utime.md>
-      uhashlib <firmwareapi/micropython/uhashlib.md>
-      ussl <firmwareapi/micropython/ussl.md>
-      ucrypto <firmwareapi/micropython/ucrypto.md>
-      ustruct <firmwareapi/micropython/ustruct.md>
-      \_thread <firmwareapi/micropython/_thread.md>
-      Builtin <firmwareapi/micropython/builtin.md>
-   Notes <firmwareapi/notes.md>
+   Introduction <firmwareapi/introduction>
+   Pycom Modules <firmwareapi/pycom/README>
+      machine <firmwareapi/pycom/machine/README>
+         ADC <firmwareapi/pycom/machine/adc>
+         DAC <firmwareapi/pycom/machine/dac>
+         I2C <firmwareapi/pycom/machine/i2c>
+         Pin <firmwareapi/pycom/machine/pin>
+         PWM <firmwareapi/pycom/machine/pwm>
+         RTC <firmwareapi/pycom/machine/rtc>
+         SPI <firmwareapi/pycom/machine/spi>
+         UART <firmwareapi/pycom/machine/uart>
+         WDT <firmwareapi/pycom/machine/wdt>
+         Timer <firmwareapi/pycom/machine/timer>
+         SD <firmwareapi/pycom/machine/sd>
+         CAN <firmwareapi/pycom/machine/can>
+         RMT <firmwareapi/pycom/machine/rmt>
+      network <firmwareapi/pycom/network/README>
+         WLAN <firmwareapi/pycom/network/wlan>
+         Server <firmwareapi/pycom/network/server>
+         Bluetooth <firmwareapi/pycom/network/bluetooth/README>
+            GATT <firmwareapi/pycom/network/bluetooth/gatt>
+            GATTCConnection <firmwareapi/pycom/network/bluetooth/gattcconnection>
+            GATTCService <firmwareapi/pycom/network/bluetooth/gattccservice>
+            GATTCCharacteristic <firmwareapi/pycom/network/bluetooth/gattccharacteristic>
+            GATTSService <firmwareapi/pycom/network/bluetooth/gattsservice>
+            GATTSCharacteristic <firmwareapi/pycom/network/bluetooth/gattscharacteristic>
+         LoRa <firmwareapi/pycom/network/lora>
+         Sigfox <firmwareapi/pycom/network/sigfox>
+         LTE <firmwareapi/pycom/network/lte>
+      AES <firmwareapi/pycom/aes>
+      pycom <firmwareapi/pycom/pycom>
+   MicroPython Modules <firmwareapi/micropython/README>
+      micropython <firmwareapi/micropython/micropython>
+      uctypes <firmwareapi/micropython/uctypes>
+      sys <firmwareapi/micropython/sys>
+      uos <firmwareapi/micropython/uos>
+      array <firmwareapi/micropython/array>
+      cmath <firmwareapi/micropython/cmath>
+      math <firmwareapi/micropython/math>
+      gc <firmwareapi/micropython/gc>
+      ubinascii <firmwareapi/micropython/ubinascii>
+      ujson <firmwareapi/micropython/ujson>
+      ure <firmwareapi/micropython/ure>
+      usocket <firmwareapi/micropython/usocket>
+      select <firmwareapi/micropython/select>
+      utime <firmwareapi/micropython/utime>
+      uhashlib <firmwareapi/micropython/uhashlib>
+      ussl <firmwareapi/micropython/ussl>
+      ucrypto <firmwareapi/micropython/ucrypto>
+      ustruct <firmwareapi/micropython/ustruct>
+      \_thread <firmwareapi/micropython/_thread>
+      Builtin <firmwareapi/micropython/builtin>
+   Notes <firmwareapi/notes>
 
 .. toctree::
    :caption: Product Info, Datasheets
-   Introduction <datasheets/introduction.md>
-   Development Modules <datasheets/development/README.md>
-      WiPy 2.0 <datasheets/development/wipy2.md>
-      WiPy 3.0 <datasheets/development/wipy3.md>
-      LoPy <datasheets/development/lopy.md>
-      LoPy 4 <datasheets/development/lopy4.md>
-      SiPy <datasheets/development/sipy.md>
-      GPy <datasheets/development/gpy.md>
-      FiPy <datasheets/development/fipy.md>
-   OEM Modules <datasheets/oem/README.md>
-      W01 <datasheets/oem/w01.md>
-      L01 <datasheets/oem/l01.md>
-      L04 <datasheets/oem/l04.md>
-      G01 <datasheets/oem/g01.md>
-      L01 OEM Baseboard Reference <datasheets/oem/l01_reference.md>
-      Universal OEM Baseboard Reference <datasheets/oem/universal_reference.md>
-   Expansion Boards and Shields <datasheets/boards/README.md>
-      Expansion Board 3.0 <datasheets/boards/expansion3.md>
-      Pytrack <datasheets/boards/pytrack.md>
-      Pysense <datasheets/boards/pysense.md>
-      Pyscan <datasheets/boards/pyscan.md>
-      Expansion Board 2.0 <datasheets/boards/expansion2.md>
-      Deep Sleep Shield <datasheets/boards/deepsleep/README.md>
-         Deep Sleep API <datasheets/boards/deepsleep/api.md>
-   Notes <datasheets/notes.md>
+   Introduction <datasheets/introduction>
+   Development Modules <datasheets/development/README>
+      WiPy 2.0 <datasheets/development/wipy2>
+      WiPy 3.0 <datasheets/development/wipy3>
+      LoPy <datasheets/development/lopy>
+      LoPy 4 <datasheets/development/lopy4>
+      SiPy <datasheets/development/sipy>
+      GPy <datasheets/development/gpy>
+      FiPy <datasheets/development/fipy>
+   OEM Modules <datasheets/oem/README>
+      W01 <datasheets/oem/w01>
+      L01 <datasheets/oem/l01>
+      L04 <datasheets/oem/l04>
+      G01 <datasheets/oem/g01>
+      L01 OEM Baseboard Reference <datasheets/oem/l01_reference>
+      Universal OEM Baseboard Reference <datasheets/oem/universal_reference>
+   Expansion Boards and Shields <datasheets/boards/README>
+      Expansion Board 3.0 <datasheets/boards/expansion3>
+      Pytrack <datasheets/boards/pytrack>
+      Pysense <datasheets/boards/pysense>
+      Pyscan <datasheets/boards/pyscan>
+      Expansion Board 2.0 <datasheets/boards/expansion2>
+      Deep Sleep Shield <datasheets/boards/deepsleep/README>
+         Deep Sleep API <datasheets/boards/deepsleep/api>
+   Notes <datasheets/notes>
 
 .. toctree::
    :caption: Pybytes
-   Introduction <pybytes/introduction.md>
-   Getting Started with Pybytes <pybytes/getstarted.md>
-   Add a device to Pybytes <pybytes/connect/README.md>
-      Connect to Pybytes: Quick Add <pybytes/connect/quick.md>
-      Connect to Pybytes: Flash Pybytes library manually <pybytes/connect/flash.md>
-      Add Sigfox device <pybytes/connect/sigfox/README.md>
-         DevKit contract <pybytes/connect/sigfox/devkit.md>
-         Custom contract <pybytes/connect/sigfox/custom.md>
-   Visualise data from your device <pybytes/dashboard.md>
+   Introduction <pybytes/introduction>
+   Getting Started with Pybytes <pybytes/getstarted>
+   Add a device to Pybytes <pybytes/connect/README>
+      Connect to Pybytes: Quick Add <pybytes/connect/quick>
+      Connect to Pybytes: Flash Pybytes library manually <pybytes/connect/flash>
+      Add Sigfox device <pybytes/connect/sigfox/README>
+         DevKit contract <pybytes/connect/sigfox/devkit>
+         Custom contract <pybytes/connect/sigfox/custom>
+   Visualise data from your device <pybytes/dashboard>
 
 .. toctree::
    :caption: Documentation Notes
-   Introduction <docnotes/introduction.md>
-   Syntax <docnotes/syntax.md>
-   REPL vs Scripts <docnotes/replscript.md>
-   Mesh Networks <docnotes/mesh-networks.md>
+   Introduction <docnotes/introduction>
+   Syntax <docnotes/syntax>
+   REPL vs Scripts <docnotes/replscript>
+   Mesh Networks <docnotes/mesh-networks>
 
 .. toctree::
    :caption: Advanced Topics
-   Firmware Downgrade <advance/downgrade.md>
-   CLI Updater <advance/cli.md>
-   SecureBoot and Encryption <advance/encryption.md>
+   Firmware Downgrade <advance/downgrade>
+   CLI Updater <advance/cli>
+   SecureBoot and Encryption <advance/encryption>
 
 .. toctree::
    :caption: Documents
-   Certificates <documents/certificates.md>
-   License <documents/license.md>
+   Certificates <documents/certificates>
+   License <documents/license>
 
 .. toctree::
    :caption: Have a question?
