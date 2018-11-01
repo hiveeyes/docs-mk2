@@ -1,41 +1,41 @@
 Table of contents
 =================
 
--  `Introduction <README.md>`__
--  `Pycom Products <products.md>`__
+-  `Introduction <README.md>
+-  `Pycom Products <products.md>
 
 Getting Started
 ---------------
 
--  `Introduction <gettingstarted/introduction.md>`__
--  `Hardware Setup <gettingstarted/connection/README.md>`__
+-  `Introduction <gettingstarted/introduction.md>
+-  `Hardware Setup <gettingstarted/connection/README.md>
 
-   -  `LoPy <gettingstarted/connection/lopy.md>`__
-   -  `LoPy 4 <gettingstarted/connection/lopy4.md>`__
-   -  `SiPy <gettingstarted/connection/sipy.md>`__
-   -  `GPy <gettingstarted/connection/gpy.md>`__
-   -  `FiPy <gettingstarted/connection/fipy.md>`__
-   -  `WiPy <gettingstarted/connection/wipy.md>`__
+   -  `LoPy <gettingstarted/connection/lopy.md>
+   -  `LoPy 4 <gettingstarted/connection/lopy4.md>
+   -  `SiPy <gettingstarted/connection/sipy.md>
+   -  `GPy <gettingstarted/connection/gpy.md>
+   -  `FiPy <gettingstarted/connection/fipy.md>
+   -  `WiPy <gettingstarted/connection/wipy.md>
 
--  `Software <gettingstarted/installation/README.md>`__
+-  `Software <gettingstarted/installation/README.md>
 
-   -  `Drivers <gettingstarted/installation/drivers.md>`__
+   -  `Drivers <gettingstarted/installation/drivers.md>
    -  `Updating
-      Firmware <gettingstarted/installation/firmwaretool.md>`__
-   -  `Pymakr <gettingstarted/installation/pymakr.md>`__
+      Firmware <gettingstarted/installation/firmwaretool.md>
+   -  `Pymakr <gettingstarted/installation/pymakr.md>
 
--  `Programming the modules <gettingstarted/programming/README.md>`__
+-  `Programming the modules <gettingstarted/programming/README.md>
 
    -  `Introduction to
-      MicroPython <gettingstarted/programming/micropython.md>`__
-   -  `MicroPython Examples <gettingstarted/programming/examples.md>`__
+      MicroPython <gettingstarted/programming/micropython.md>
+   -  `MicroPython Examples <gettingstarted/programming/examples.md>
    -  `Your first Pymakr
-      project <gettingstarted/programming/first-project.md>`__
-   -  `REPL <gettingstarted/programming/repl/README.md>`__
+      project <gettingstarted/programming/first-project.md>
+   -  `REPL <gettingstarted/programming/repl/README.md>
 
       -  `Serial USB
-         (UART) <gettingstarted/programming/repl/serial.md>`__
-      -  `Telnet REPL <gettingstarted/programming/repl/telnet.md>`__
+         (UART) <gettingstarted/programming/repl/serial.md>
+      -  `Telnet REPL <gettingstarted/programming/repl/telnet.md>
 
    -  `FTP <gettingstarted/programming/ftp.md>`__
    -  `Safe boot <gettingstarted/programming/safeboot.md>`__
