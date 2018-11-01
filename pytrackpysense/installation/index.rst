@@ -8,3 +8,10 @@ updating the device firmware, it is important to check the `GitHub
 repository <https://github.com/pycom/pycom-libraries>`__ for the
 respective library files as they as also being updated, to include
 additional features/functionality.
+
+.. toctree::
+  :maxdepth: 1
+
+  Updating Firmware <firmware>
+  Installing Drivers Windows 7 <drivers>
+  Installing Libraries <libraries>

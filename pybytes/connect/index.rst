@@ -59,3 +59,10 @@ updater or you can flash Pybytes library manually. {% endhint %}
 .. |image4| image:: ../../.gitbook/assets/5-1.jpg
 .. |image5| image:: ../../.gitbook/assets/7-1.png
 
+
+.. toctree::
+  :maxdepth: 1
+
+  Connect to Pybytes: Quick Add <quick>
+  Connect to Pybytes: Flash Pybytes library manually <flash>
+  Add Sigfox device <sigfox/index>

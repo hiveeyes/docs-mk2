@@ -1,4 +1,5 @@
-# DevKit contract
+DevKit contract
+===============
 
 Every Sigfox Pycom device comes with free Sigfox connectivity - Sigfox DevKit contract. It provides one year of Sigfox connectivity. This is great for prototyping.
 
@@ -8,7 +9,8 @@ After you add your Sigfox credentials to Pybytes you can see DevKit contract typ
 
 ![](../../../.gitbook/assets/pybytesdevkit%20%281%29.png)
 
-## Add your device to Pybytes
+Add your device to Pybytes
+--------------------------
 
 1. Create Sigfox device \(Lopy4, SiPy, FiPy\) in Pybytes and copy its device token to clipboard.
 2. Connect your device to your computer and update it with Pycom firmware updater.
@@ -19,7 +21,8 @@ After you add your Sigfox credentials to Pybytes you can see DevKit contract typ
 Detailed steps which are same for all devices are [**described here**](../quick.md).
 {% endhint %}
 
-## Check sigfox status
+Check sigfox status
+-------------------
 
 Go to: Devices → &lt;your\_device\_name&gt; → configuration
 
@@ -39,7 +42,7 @@ Note that Sigfox callback are associated to Sigfox device types.
 
 This is not an issue with Custom contract, where _device type_ on Sigfox backend can contain many devices, therefore you just need to one Sigfox HTTP POST callback \(It is created automatically by Pybytes\).
 
-## Troubleshooting
+Troubleshooting
+---------------
 
 [Disengage Sigfox sequence number](../../../tutorials/sigfox.md#disengage-sequence-number)
-

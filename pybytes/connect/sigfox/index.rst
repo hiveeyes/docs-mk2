@@ -1,10 +1,12 @@
-# Add Sigfox device
+Add Sigfox device
+=================
 
 {% hint style="danger" %}
 Before you start you need to create Sigfox account. You need Pycom device with Sigfox to get your Sigfox account. [**Follow these instructions**](../../../gettingstarted/registration/sigfox.md).
 {% endhint %}
 
-## Create Sigfox API credentials
+Create Sigfox API credentials
+-----------------------------
 
 Once you have you account setup and are logged in Sigfox backend, you need to create API credentials for Pybytes.
 
@@ -24,17 +26,25 @@ In Pybytes go to Settings → Sigfox API or [follow this link](https://pybytes.p
 
 ![](../../../.gitbook/assets/pybytessigfoxcredentials.png)
 
-## Sigfox contract types
+Sigfox contract types
+---------------------
 
-### Sigfox DevKit contracts
+Sigfox DevKit contracts
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Read more how to use Sigfox with [devKit contract](devkit.md).
 
 {% page-ref page="devkit.md" %}
 
-### Sigfox custom contracts
+Sigfox custom contracts
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Read more how to use Sigfox with [Custom contract](devkit.md).
 
 {% page-ref page="custom.md" %}
 
+.. toctree::
+  :maxdepth: 1
+
+  DevKit contract <devkit>
+  Custom contract <custom>

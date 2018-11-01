@@ -14,7 +14,7 @@ Welcome to Pycom Documentation's documentation!
   Pycom Products <products>
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
   :caption: Getting Started
 
   Introduction <gettingstarted/introduction>
@@ -48,32 +48,23 @@ Welcome to Pycom Documentation's documentation!
 
 .. toctree::
   :caption: Pymakr Plugin
-  :maxdepth: 3
+  :maxdepth: 1
 
-   Installation <pymakr/installation/README>
-      Atom <pymakr/installation/atom>
-      Visual Studio Code <pymakr/installation/vscode>
+   Installation <pymakr/installation/index>
    Tools/Features <pymakr/toolsfeatures>
    Settings <pymakr/settings>
 
 .. toctree::
   :caption: Pytrack, Pysense, Pyscan
-  :maxdepth: 3
+  :maxdepth: 1
 
    Introduction <pytrackpysense/index>
    Installing Software <pytrackpysense/installation/index>
-      Updating Firmware <pytrackpysense/installation/firmware>
-      Installing Drivers Windows 7 <pytrackpysense/installation/drivers>
-      Installing Libraries <pytrackpysense/installation/libraries>
    API Reference <pytrackpysense/apireference/index>
-      Pytrack <pytrackpysense/apireference/pytrack>
-      Pysense <pytrackpysense/apireference/pysense>
-      Pyscan <pytrackpysense/apireference/pyscan>
-      Sleep <pytrackpysense/apireference/sleep>
 
 .. toctree::
   :caption: Tutorials & Examples
-  :maxdepth: 3
+  :maxdepth: 1
 
    Introduction <tutorials/introduction>
    All Pycom Device Examples <tutorials/all/README>
@@ -114,7 +105,7 @@ Welcome to Pycom Documentation's documentation!
 
 .. toctree::
   :caption: Firmware & API Reference
-  :maxdepth: 3
+  :maxdepth: 1
 
    Introduction <firmwareapi/introduction>
    Pycom Modules <firmwareapi/pycom/README>
@@ -172,7 +163,7 @@ Welcome to Pycom Documentation's documentation!
 
 .. toctree::
   :caption: Product Info, Datasheets
-  :maxdepth: 3
+  :maxdepth: 1
 
    Introduction <datasheets/introduction>
    Development Modules <datasheets/development/README>
@@ -202,17 +193,12 @@ Welcome to Pycom Documentation's documentation!
 
 .. toctree::
   :caption: Pybytes
-  :maxdepth: 3
+  :maxdepth: 1
 
-   Introduction <pybytes/introduction>
-   Getting Started with Pybytes <pybytes/getstarted>
-   Add a device to Pybytes <pybytes/connect/README>
-      Connect to Pybytes: Quick Add <pybytes/connect/quick>
-      Connect to Pybytes: Flash Pybytes library manually <pybytes/connect/flash>
-      Add Sigfox device <pybytes/connect/sigfox/README>
-         DevKit contract <pybytes/connect/sigfox/devkit>
-         Custom contract <pybytes/connect/sigfox/custom>
-   Visualise data from your device <pybytes/dashboard>
+  Introduction <pybytes/introduction>
+  Getting Started with Pybytes <pybytes/getstarted>
+  Add a device to Pybytes <pybytes/connect/index>
+  Visualise data from your device <pybytes/dashboard>
 
 .. toctree::
   :caption: Documentation Notes
