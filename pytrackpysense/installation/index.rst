@@ -10,8 +10,7 @@ respective library files as they as also being updated, to include
 additional features/functionality.
 
 .. toctree::
-  :caption: Installing Software
-  :maxdepth: 1
+  :maxdepth: 2
 
   Updating Firmware <pytrackpysense/installation/firmware>
   Installing Drivers Windows 7 <pytrackpysense/installation/drivers>

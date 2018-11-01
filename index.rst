@@ -9,6 +9,7 @@ Welcome to Pycom Documentation's documentation!
 .. toctree::
   :maxdepth: 1
   :caption: Contents
+  :numbered:
 
   Introduction <README>
   Pycom Products <products>
@@ -60,7 +61,7 @@ Welcome to Pycom Documentation's documentation!
   :caption: Pytrack, Pysense, Pyscan
   :maxdepth: 3
 
-  Introduction <pytrackpysense/introduction>
+  Introduction <pytrackpysense/index>
   Installing Software <pytrackpysense/installation/index>
   API Reference <pytrackpysense/apireference/index>
 

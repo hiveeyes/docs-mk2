@@ -7,8 +7,7 @@ following pages refer to the respective libraries for the Pytrack,
 Pysense, and Pyscan.
 
 .. toctree::
-  :caption: API Reference
-  :maxdepth: 1
+  :maxdepth: 2
 
   Pytrack <pytrackpysense/apireference/pytrack>
   Pysense <pytrackpysense/apireference/pysense>
