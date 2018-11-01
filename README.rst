@@ -1,18 +1,20 @@
-Introduction
-============
+.. Pycom Documentation documentation master file, created by
+   sphinx-quickstart on Thu Nov  1 15:13:27 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-Welcome to the Pycom documentation site. We recommend reading through
-all the sections to familiarise yourself with the various tools and
-features available to you to help you develop on your Pycom module.
+Welcome to Pycom Documentation's documentation!
+===============================================
 
-To get started, read through the Getting Started Guide then feel free to
-jump straight into the tutorials and examples in Tutorials & Examples to
-begin building your projects.
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
--  `Products <products.md>`__
--  `Getting Started <gettingstarted/introduction.md>`__
--  `Pymakr <pymakr/installation/>`__
--  `Tutorials <tutorials/introduction.md>`__
--  `API Documentation <firmwareapi/introduction.md>`__
--  `Product Info <datasheets/introduction.md>`__
--  `Pybytes <pybytes/introduction.md>`__
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
