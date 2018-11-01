@@ -8,13 +8,14 @@ Welcome to Pycom Documentation's documentation!
 
 .. toctree::
   :maxdepth: 1
-  :caption: Contents:
+  :caption: Contents
 
   Introduction <README>
   Pycom Products <products>
 
 .. toctree::
-   :caption: Getting Started
+  :maxdepth: 3
+  :caption: Getting Started
 
   Introduction <gettingstarted/introduction>
   Hardware Setup <gettingstarted/connection/README>
@@ -46,7 +47,9 @@ Welcome to Pycom Documentation's documentation!
   Troubleshooting Guide <gettingstarted/troubleshooting-guide>
 
 .. toctree::
-   :caption: Pymakr Plugin
+  :caption: Pymakr Plugin
+  :maxdepth: 3
+
    Installation <pymakr/installation/README>
       Atom <pymakr/installation/atom>
       Visual Studio Code <pymakr/installation/vscode>
@@ -54,7 +57,9 @@ Welcome to Pycom Documentation's documentation!
    Settings <pymakr/settings>
 
 .. toctree::
-   :caption: Pytrack, Pysense, Pyscan
+  :caption: Pytrack, Pysense, Pyscan
+  :maxdepth: 3
+
    Introduction <pytrackpysense/introduction>
    Installing Software <pytrackpysense/installation/README>
       Updating Firmware <pytrackpysense/installation/firmware>
@@ -67,7 +72,9 @@ Welcome to Pycom Documentation's documentation!
       Sleep <pytrackpysense/apireference/sleep>
 
 .. toctree::
-   :caption: Tutorials & Examples
+  :caption: Tutorials & Examples
+  :maxdepth: 3
+
    Introduction <tutorials/introduction>
    All Pycom Device Examples <tutorials/all/README>
       REPL <tutorials/all/repl>
@@ -105,7 +112,10 @@ Welcome to Pycom Documentation's documentation!
    Pysense Examples <tutorials/pysense>
    Pyscan Examples <tutorials/pyscan>
 
-   :caption: Firmware & API Reference
+.. toctree::
+  :caption: Firmware & API Reference
+  :maxdepth: 3
+
    Introduction <firmwareapi/introduction>
    Pycom Modules <firmwareapi/pycom/README>
       machine <firmwareapi/pycom/machine/README>
@@ -161,7 +171,9 @@ Welcome to Pycom Documentation's documentation!
    Notes <firmwareapi/notes>
 
 .. toctree::
-   :caption: Product Info, Datasheets
+  :caption: Product Info, Datasheets
+  :maxdepth: 3
+
    Introduction <datasheets/introduction>
    Development Modules <datasheets/development/README>
       WiPy 2.0 <datasheets/development/wipy2>
@@ -189,7 +201,9 @@ Welcome to Pycom Documentation's documentation!
    Notes <datasheets/notes>
 
 .. toctree::
-   :caption: Pybytes
+  :caption: Pybytes
+  :maxdepth: 3
+
    Introduction <pybytes/introduction>
    Getting Started with Pybytes <pybytes/getstarted>
    Add a device to Pybytes <pybytes/connect/README>
@@ -201,23 +215,31 @@ Welcome to Pycom Documentation's documentation!
    Visualise data from your device <pybytes/dashboard>
 
 .. toctree::
-   :caption: Documentation Notes
-   Introduction <docnotes/introduction>
-   Syntax <docnotes/syntax>
-   REPL vs Scripts <docnotes/replscript>
-   Mesh Networks <docnotes/mesh-networks>
+  :caption: Documentation Notes
+  :maxdepth: 1
+
+  Introduction <docnotes/introduction>
+  Syntax <docnotes/syntax>
+  REPL vs Scripts <docnotes/replscript>
+  Mesh Networks <docnotes/mesh-networks>
 
 .. toctree::
-   :caption: Advanced Topics
-   Firmware Downgrade <advance/downgrade>
-   CLI Updater <advance/cli>
-   SecureBoot and Encryption <advance/encryption>
+  :caption: Advanced Topics
+  :maxdepth: 1
+
+  Firmware Downgrade <advance/downgrade>
+  CLI Updater <advance/cli>
+  SecureBoot and Encryption <advance/encryption>
 
 .. toctree::
-   :caption: Documents
-   Certificates <documents/certificates>
-   License <documents/license>
+  :caption: Documents
+  :maxdepth: 1
+
+  Certificates <documents/certificates>
+  License <documents/license>
 
 .. toctree::
-   :caption: Have a question?
-   Ask on the Forum <https://forum.pycom.io>
+  :caption: Have a question?
+  :maxdepth: 1
+
+  Ask on the Forum <https://forum.pycom.io>
