@@ -9,7 +9,6 @@ Welcome to Pycom Documentation's documentation!
 .. toctree::
   :maxdepth: 1
   :caption: Contents
-  :numbered:
 
   Introduction <README>
   Pycom Products <products>
@@ -61,9 +60,16 @@ Welcome to Pycom Documentation's documentation!
   :caption: Pytrack, Pysense, Pyscan
   :maxdepth: 3
 
-  Introduction <pytrackpysense/index>
-  Installing Software <pytrackpysense/installation/index>
-  API Reference <pytrackpysense/apireference/index>
+   Introduction <pytrackpysense/index>
+   Installing Software <pytrackpysense/installation/index>
+      Updating Firmware <pytrackpysense/installation/firmware>
+      Installing Drivers Windows 7 <pytrackpysense/installation/drivers>
+      Installing Libraries <pytrackpysense/installation/libraries>
+   API Reference <pytrackpysense/apireference/index>
+      Pytrack <pytrackpysense/apireference/pytrack>
+      Pysense <pytrackpysense/apireference/pysense>
+      Pyscan <pytrackpysense/apireference/pyscan>
+      Sleep <pytrackpysense/apireference/sleep>
 
 .. toctree::
   :caption: Tutorials & Examples
